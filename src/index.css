@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#screen {
+  background: url("./assets/bg.jpg") center/cover;
+}
+#glass {
+  border: 2px solid rgba(255, 255, 255, 0.00);
+  background: linear-gradient(180deg, rgb(0 0 0 / 20%) 0%, rgb(0 0 0 / 17%));
+  backdrop-filter: blur(25px);
+ 
+}
+
+/* .search{
+  display: 
+} */
