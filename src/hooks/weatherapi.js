@@ -6,7 +6,7 @@ function useWeather(locations) {
 
     useEffect(() => {
         
-        fetch(`http://api.weatherapi.com/v1/current.json?key=${api}&q=${locations}&aqi=no`)
+        fetch(`https://api.weatherapi.com/v1/current.json?key=${api}&q=${locations}&aqi=no`)
             .then((res) => res.json())
             .then((res) => {
                 setData(res);
